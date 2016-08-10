@@ -30,7 +30,7 @@ class MyBot < Ebooks::Bot
       # pictweet("hi", "cuteselfie.jpg")
     end
 
-    scheduler.every '2m' do
+    scheduler.every '5h' do
       statement = model.make_statement(140)
       tweet(statement)
     end
