@@ -30,7 +30,7 @@ class MyBot < Ebooks::Bot
       # pictweet("hi", "cuteselfie.jpg")
     end
 
-    scheduler.every '1m' do
+    scheduler.every '2m' do
       statement = model.make_statement(140)
       tweet(statement)
     end
@@ -68,7 +68,7 @@ class MyBot < Ebooks::Bot
 end
 
 # Make a MyBot botye attach it to an account
-MyBot.new("BotyeWest") do |bot|
+MyBot.new("RoboKanye") do |bot|
   bot.access_token = "717890281702572032-j5a6ENUEnj6UhQ9GbtgrPIRaxRsERY6" # Token connecting the app to this account
   bot.access_token_secret = "gMva5EV8qN91yc1KZYEd2wa1M5lBXgS4mA9Dc2KGvG1Dv" # Secret connecting the app to this account
 
