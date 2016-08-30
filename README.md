@@ -1,2 +1,4 @@
 # RoboKanye
-A kanye west twitter simulator.v
+A kanye west twitter simulator.
+
+Visit www.twitter.com/robokanye
